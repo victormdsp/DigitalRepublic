@@ -5,8 +5,7 @@
   "main": "src",
   "scripts": {
     "test": "jest",
-    "start": "ts-node src/server.ts",
-    "initJest": "jest --init"
+    "start": "ts-node src/server.ts"
   },
   "author": "",
   "license": "ISC",

@@ -49,7 +49,6 @@ describe("Testando rota transferencia", () => {
         await request(app)
             .put("/transferencia")
             .send({
-                cpf: 1233355,
                 cpfTransferidor: 123335,
                 cpfTransferido: 1233355,
                 valor: 20,
