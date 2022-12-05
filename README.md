@@ -19,6 +19,8 @@
       <li>Jest</li>
     </ul>
     <p> A proposta do desafio não especificava um banco de dados, porém como já possuo conhecimento com MongoDB preferi optar por ele. </p>
+    <p> Para rodar o código primeiramente é necessário utilizar o comando "npm i" para instalar as dependências e em seguida utilizar o comando "npm run start".</p>
+    <p> Caso queria rodar os testes de unidade basta utilizar o comando "npm run test", após a instalação das dependências.</p>
     <h2>Bibliotecas utilizadas</h2>
     <ul>
       <li>Express (Criação das rotas)</li>
