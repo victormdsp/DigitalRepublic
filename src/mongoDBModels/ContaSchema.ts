@@ -1,6 +1,4 @@
 import { Schema, model } from 'mongoose';
-import { v4 } from 'uuid';
-const bycrypt = require("bcryptjs");
 
 const Conta = new Schema({
     // Id totalmente opcional , o mongoDb já cria um Id mas eu criei um para exemplificar caso seja outro banco que não haja criação automática.
