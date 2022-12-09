@@ -1,15 +1,18 @@
 const express = require("express");
 const router = require("./routes");
 const mongoose = require("mongoose")
+const cors = require('cors');
 
 mongoose.connect("mongodb+srv://digitalrepublic:teste123teste@cluster0.zm0nvyf.mongodb.net/DigitalRepublic2");
 
 export const app = express();
 
+app.use(express.urlencoded({extended: true}));
 app.use(express.json());
+app.use(cors());
 app.use('/', router);
 
-app.listen(3000, () => {
+app.listen(3001, () => {
     console.log(" Escutando na porta 3000\n")
     console.log(" Olá avaliador da Digital Republic =), este projeto é o princial. \n Neste projeto utilizei apenas um Modelo para a Conta com seus respectivos atributos.\n")
     console.log(" Para rodar os teste é necessário ter o node maior que 14 e utilizar o npm run test.\n")
