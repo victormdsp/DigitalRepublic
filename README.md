@@ -73,6 +73,7 @@
     <p> Métodos Post </p>
     <ul> 
       <li> criarConta </li>
+      <li> login </li>
     </ul>
     <p> Métodos Put </p>
     <ul> 
