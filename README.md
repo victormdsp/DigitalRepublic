@@ -17,6 +17,7 @@
       <li>TypeScript</li>
       <li>MongoDb</li>
       <li>Jest</li>
+      <li>Cors</li>
     </ul>
     <p> A proposta do desafio não especificava um banco de dados, porém como já possuo conhecimento com MongoDB preferi optar por ele. </p>
     <p> Para rodar o código primeiramente é necessário utilizar o comando "npm i" para instalar as dependências e em seguida utilizar o comando "npm run start".</p>
